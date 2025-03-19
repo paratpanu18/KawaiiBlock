@@ -1,0 +1,15 @@
+p.center_lnwphp {
+    display: none !important;
+}
+
+.col-lg-3 .panel.panel-danger:nth-of-type(-n+2) {
+    display: none !important;
+}
+
+.giscus {
+    display: none !important;
+}
+
+.panel-body > center:not(:has(ul.pagination)) {
+    display: none !important;
+}

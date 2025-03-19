@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "KawaiiBlock",
+  "author": "OkuSan",
+  "version": "1.0",
+  "description": "Ads blocker for anime streaming sites.",
+  
+  "icons": {
+    "48": "icons/miku-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.anime-sugoi.com/*"],
+      "css": ["src/anime-sugoi.css"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.anime-sugoi.com/*"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "kawaiiblock@okusan.cc"
+    }
+  }
+}
