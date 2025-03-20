@@ -13,3 +13,7 @@ p.center_lnwphp {
 .panel-body > center:not(:has(ul.pagination)) {
     display: none !important;
 }
+
+.row center:has(.adsok) {
+    display: none !important;
+}

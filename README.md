@@ -7,6 +7,9 @@
 
 ## Supported sites 🌐
 ✅ anime-sugoi.com
+✅ fairyanime.net
+✅ animeyuzu.com
+✅ alpha-hen.com
 
 ## Installation 📦
 ### Chromium-based Browsers (Chrome, Edge, Brave, etc.)
