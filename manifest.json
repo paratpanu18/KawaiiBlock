@@ -24,6 +24,11 @@
       "matches": ["*://*.animeyuzu.com/*"],
       "css": ["src/animeyuzu.css"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["*://*.alpha-hen.com/*"],
+      "css": ["src/alpha-hen.css"],
+      "run_at": "document_start"
     }
   ],
 
@@ -32,7 +37,8 @@
     "webRequestBlocking",
     "*://*.anime-sugoi.com/*",
     "*://*.fairyanime.net/*",
-    "*://*.animeyuzu.com/*"
+    "*://*.animeyuzu.com/*",
+    "*://*.alpha-hen.com/*"
   ],
 
   "browser_specific_settings": {
