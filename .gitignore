@@ -1,0 +1,10 @@
+*.zip
+
+# Chrome extension private key
+*.pem
+
+# Chrome extension build
+*.crx
+
+# Firefox extension build
+*.xpi
