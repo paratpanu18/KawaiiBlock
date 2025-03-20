@@ -7,6 +7,7 @@
 
 ## Supported sites 🌐
 ✅ anime-sugoi.com
+✅ fairyanime.net
 
 ## Installation 📦
 ### Chromium-based Browsers (Chrome, Edge, Brave, etc.)

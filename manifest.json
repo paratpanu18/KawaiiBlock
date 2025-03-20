@@ -14,13 +14,19 @@
       "matches": ["*://*.anime-sugoi.com/*"],
       "css": ["src/anime-sugoi.css"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["*://*.fairyanime.net/*"],
+      "css": ["src/fairyanime.css"],
+      "run_at": "document_start"
     }
   ],
 
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://*.anime-sugoi.com/*"
+    "*://*.anime-sugoi.com/*",
+    "*://*.fairyanime.net/*"
   ],
 
   "browser_specific_settings": {
