@@ -19,6 +19,11 @@
       "matches": ["*://*.fairyanime.net/*"],
       "css": ["src/fairyanime.css"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["*://*.animeyuzu.com/*"],
+      "css": ["src/animeyuzu.css"],
+      "run_at": "document_start"
     }
   ],
 
@@ -26,7 +31,8 @@
     "webRequest",
     "webRequestBlocking",
     "*://*.anime-sugoi.com/*",
-    "*://*.fairyanime.net/*"
+    "*://*.fairyanime.net/*",
+    "*://*.animeyuzu.com/*"
   ],
 
   "browser_specific_settings": {
